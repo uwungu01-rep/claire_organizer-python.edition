@@ -4,7 +4,7 @@ A command line file organizer made. My largest project as of the creation of thi
 
 ## Functionalities
 Organize the content of a folder, with various option, these include:
-1. Configure the category of a file type.
+1. Configure the file types of a category.
 2. Add/Remove a category of file types.
 
 ## Installation
@@ -21,15 +21,15 @@ pip install claire_organizer
   </li>
 </ol>
 
+
 ## Usage
 <ol type="1">
   <li>
-    Open terminal, run:
+    Open terminal, run: <!-- I hope the reference won't be too obvious -->
 
 ```
 elford
 ```
-<!-- I hope the reference won't be too obvious -->
   </li>
   <li>
     Alternatively, in a Python file (*.py), you can do:
@@ -46,6 +46,7 @@ main()
 
 ## Note(s)
 1. Deleting the config folder/file could cause everything to revert back to the default setting the next time you boot up the progam.
+2. The program won't check any the content of any subfolders for simplicity sake, subfolders will be put into the "Others" folder. (Will probably add this as a switch if you guys want to)
 
 ## License
 This project is licensed under the GNU General Public License 3.0, check [LICENSE](LICENSE) for more details.
