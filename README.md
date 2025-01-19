@@ -27,8 +27,9 @@ pip install claire_organizer
     Open terminal, run:
 
 ```
-elford <!---->
+elford
 ```
+<!-- I hope the reference won't be too obvious -->
   </li>
   <li>
     Alternatively, in a Python file (*.py), you can do:
