@@ -46,7 +46,7 @@ main()
 
 ## Note(s)
 1. Deleting the config folder/file could cause everything to revert back to the default setting the next time you boot up the progam.
-2. The program won't check any the content of any subfolders for simplicity sake, subfolders will be put into the "Others" folder. (Will probably add this as a switch if you guys want to)
+2. The program won't check any of the contents of any subfolders for simplicity sake, subfolders will be put into the "Others" folder. (Will probably add this as a switch if you guys want to)
 
 ## License
 This project is licensed under the GNU General Public License 3.0, check [LICENSE](LICENSE) for more details.
