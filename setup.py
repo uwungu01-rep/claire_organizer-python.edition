@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = "1.0"
+VERSION = "1.0.1"
 DESCRIPTION = " A command line file organizer made. My largest project so far."
 with open("README.md") as file:
     LONG_DESCRIPTION = file.read()
