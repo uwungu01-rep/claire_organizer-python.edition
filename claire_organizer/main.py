@@ -265,12 +265,12 @@ Your input (Preceed the extension with a ".") (Type / to go back): """).strip()
 Your input (Preceed the extension with a ".") (Type / to go back): """).strip()
                         
                     clear()
-                    if len(opt) > 1 and opt[0] == "." and check_extension(opt, config):
+                    if len(opt) > 1 and opt[0] == "." and not check_extension(opt, config):
                         option.append(opt)
                         write_config_to_file(config_path, config, def_config)
                     elif opt == "/":
                         break
-                    elif not check_extension(opt, config):
+                    elif check_extension(opt, config):
                         print("Invalid input: Extension already exist in other category. \n")
                     elif not opt:
                         print("Invalid input: Empty input. \n")
