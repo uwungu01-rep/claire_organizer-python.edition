@@ -15,7 +15,7 @@ Organize the content of a folder, with various option, these include:
   <li>
     Open terminal, run:
     
-```
+```powershell
 pip install claire_organizer
 ```
   </li>
@@ -34,12 +34,18 @@ elford
   <li>
     Alternatively, in a Python file (*.py), you can do:
     
-```
+```python
 from claire_organizer import main
 main()
 ```
   </li>
 </ol>
+
+## Changelog
+### Update 2.0.0
+1. Move to using Ziz's Ultilities functions.
+2. Empty folders will now be deleted after sorting.
+3. Added duplication handling.
 
 ## Requirement(s)
 1.  Python 3.x
